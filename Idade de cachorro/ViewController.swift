@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBAction func escobrirIdade(_ sender: Any) {
         
         let idade = Int(campoIdadeCachorro.text!)! * 7
-        legendaResultado.text = "A idade do cachorro é: " + String(idade)        
+        legendaResultado.text = "A idade do cachorro é: " + String(idade)
         
     }
     
